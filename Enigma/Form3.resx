@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Нажмем на клавишу «A». Крайний правый ротор повернется вперед на один шаг, то есть, буква «Q» перейдет в «R». Ротор посередине также повернется вперед на букву «V», но об этом я расскажу чуть позже. Итак, наша буква «А» начинает путешествие с первого отсека, в котором установлен ротор I и на котором выставлена уже буква «R». Уже перед тем как попасть на первый ротор буква претерпевает свое первое преобразование, а именно: сложение с буквой «R» по модулю 26. Фактически, это шифр Цезаря. Если пронумеровать все буквы от 0 до 25, то буква «А» будет как раз таки нулевой. Значит, результатом сложения будет буква «R». Далее, мы с вами знаем, что в первом отсеке ротор I, а в его конструкции заложено, что буква «R» всегда переходит в «U». Теперь на очереди второй отсек с ротором II. Опять, перед попаданием на второй ротор, теперь уже буква «U» меняется по несколько иному алгоритму: к ней прибавляется разница значений последующего ротора и предыдущего. Поясню. На втором роторе ожидает нас буква «V», а на предыдущем, - «R», их разница равна четырем буквам, и именно они прибавляются к нашей букве «U». Поэтому, на второй ротор поступает буква «Y». Далее по таблице находим, что во втором роторе букве «Y» соответствует «O». Далее опять смотрим разницу букв «C» и «V», - она равна семи. Значит, букву «O» сдвигаем на семь позиций и получаем «V». В роторе III «V» переходит в «M». Перед тем как попасть на рефлектор, из нашей буквы вычитается буква «C», преображая ее в букву «K». Далее происходит отражение. Если вы заметите, то в каждом роторе образуются большие циклические группы, например: (A - E - L - T - P - H - Q - X - R - U), а в рефлекторе они разбиты по парам: (A - Y)(B - R)(C - U) и т.д. Это сделано для того, чтобы потом это возможно было расшифровать. Предположим, что установлен рефлектор B, в котором «K» заменяется на «N» (и наоборот). Половина пути пройдена. Теперь мы опять прибавляем значение буквы «С», получив тем самым букву «P». Здесь наоборот, в строке третьего ротора находим «P» и смотрим, в при нажатии какой буквы она бы появилась. Это буква «H». Преобразование в третьем роторе закончено. Теперь из этой буквы вычитается разница букв «C» и «V», то есть семь. Получаем букву «A». Во втором роторе она переходит саму в себя, поэтому оставляем ее без изменений. Далее, вычитаем разницу букв «V» и «R», то есть четверку и получаем букву «W». В первом роторе её обратно преобразование отображается в букву «N». Остается только вычесть из нее букву «R» и получим искомую букву «W».</value>
+  </data>
+</root>
